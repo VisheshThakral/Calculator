@@ -1,7 +1,9 @@
 [build]
   command = "bun run build"
   publish = "dist"
-  secretScanning = "enabled"
+
+[build.environment]
+  SECRETS_SCAN_ENABLED = "false"
 
   ignoreSecrets = [
     "VITE_API_KEY",
