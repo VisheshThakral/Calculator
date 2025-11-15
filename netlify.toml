@@ -4,13 +4,3 @@
 
 [build.environment]
   SECRETS_SCAN_ENABLED = "false"
-
-  ignoreSecrets = [
-    "VITE_API_KEY",
-    "VITE_AUTH_DOMAIN",
-    "VITE_DB_URL",
-    "VITE_PROJECT_ID",
-    "VITE_STORAGE_BUCKET",
-    "VITE_MSG_SENDER_ID",
-    "VITE_APP_ID"
-  ]
