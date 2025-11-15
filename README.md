@@ -38,4 +38,4 @@ The application supports basic arithmetic operations and records each user actio
 
 ```bash
 git clone https://github.com/VisheshThakral/Calculator
-cd vue3-calculator
+cd calculator
