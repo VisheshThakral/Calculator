@@ -1,3 +1,10 @@
-[build.environment]
-# Tell Netlify not to treat these as secrets
-NETLIFY_BUILD_SECRETS_IGNORE = "true"
+[build]
+  ignoreSecrets = [
+    "VITE_API_KEY",
+    "VITE_AUTH_DOMAIN",
+    "VITE_DB_URL",
+    "VITE_PROJECT_ID",
+    "VITE_STORAGE_BUCKET",
+    "VITE_MSG_SENDER_ID",
+    "VITE_APP_ID"
+  ]
