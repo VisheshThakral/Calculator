@@ -1,0 +1,3 @@
+[build.environment]
+# Tell Netlify not to treat these as secrets
+NETLIFY_BUILD_SECRETS_IGNORE = "true"
