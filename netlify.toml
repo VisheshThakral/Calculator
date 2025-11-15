@@ -1,4 +1,7 @@
 [build]
+  command = "bun run build"
+  publish = "dist"
+
   ignoreSecrets = [
     "VITE_API_KEY",
     "VITE_AUTH_DOMAIN",
